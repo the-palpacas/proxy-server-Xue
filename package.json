@@ -1,17 +1,23 @@
 {
-  "name": "",
+  "name": "proxy-server-xue",
   "version": "",
   "description": "",
   "author": "",
   "license": "",
+  "repository": "",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon server/index.js"
   },
   "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "request": "^2.87.0"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "http-proxy-middleware": "^0.18.0"
   }
 }
